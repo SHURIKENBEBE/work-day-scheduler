@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-4">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead display-6"></p>
+    </header>
+
+    <section class="container my-5">
+
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="9am">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          9am 
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="9am-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="10pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          10pm
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="10pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="11pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          11pm 
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="11pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="12pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          12pm
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="12pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="9am">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          1pm
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="1pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="2pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          2pm
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="2pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="3pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          3pm 
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="3pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="4pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          4pm
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="4pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+      <div class="row d-flex justify-content-center d-flex align-items-center" id="5pm">
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          5pm 
+        </div>
+        <div class="m-3 col-12 col-md-6 col-lg-3 form-group">
+          <input type="text" class="form-control" id="5pm-event-input" placeholder="Add Event">
+        </div>
+
+        <div class="m-2 col-12 col-md-6 col-lg-3">
+          <button type="button" class="btn btn-link"> SAVE </button>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    
+
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
