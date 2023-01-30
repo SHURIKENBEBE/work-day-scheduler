@@ -1,7 +1,27 @@
+:root{
+  background: #F9F9F9;
+  --primary-color: #EBC7E6;
+  --title-color: #E5E0FF;
+  --primarytext-color: #C0EEE4;
+  --subtext-color: #82AAE3;
+  --title-font: 'Rubik Gemstones', cursive;
+  --font1: 'Saira', sans-serif;
+  --font2: 'Exo 2', sans-serif;
+  --font3: 'Fredoka One', cursive;
+  --font4: 'Plus Jakarta Sans', sans-serif;
+  --font5: 'Rubik 80s Fade', cursive;
+
+
+  
+}
+
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-family: var(--font2);
   font-size: 16px;
   line-height: 1;
+  background-color: var(--primarytext-color);
 }
 
 textarea{
@@ -13,9 +33,19 @@ textarea{
   padding: 10px;
 }
 
+#currentDay{
+  font-family: var(--font4);
+  color: var(--subtext-color);
+}
+
+
+.input{
+  text-align: center;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: var(--title-color);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -33,7 +63,11 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
+  width: 100%;
   border-top: 1px solid white;;
+  padding: 5px ;
+  background-color: var(--primary-color);
+  text-align: center;
 }
 
 .hour {
@@ -61,7 +95,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  border-color: var(--subtext-color);
   color: white;
 }
 
